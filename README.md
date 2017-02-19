@@ -5,3 +5,6 @@ embryonic 是一个简单的无业物逻辑的web服务器雏形。可以通过b
 创建项目:
 ./build.sh github.com/wgyuuu/test
 
+###
+问题：重复利用的结构体没能初始化
+

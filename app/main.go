@@ -13,9 +13,7 @@ import (
 )
 
 func main() {
-	signal.OpenMonitor(func() {
-		exitHandler()
-	})
+	signal.OpenMonitor(exitHandler)
 
 	ng := negroni.New()
 
